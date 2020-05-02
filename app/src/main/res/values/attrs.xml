@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DotsLoaderBaseView">
+        <attr name="loader_defaultColor" format="color" />
+        <attr name="loader_selectedColor" format="color" />
+        <attr name="loader_circleRadius" format="dimension" />
+        <attr name="loader_animDur" format="integer" />
+        <attr name="loader_showRunningShadow" format="boolean" />
+        <attr name="loader_firstShadowColor" format="color" />
+        <attr name="loader_secondShadowColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularDotsLoader">
+        <attr name="loader_bigCircleRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleView">
+        <attr name="circleRadius" format="dimension" />
+        <attr name="circleColor" format="color" />
+        <attr name="circleDrawOnlystroke" format="boolean" />
+        <attr name="circleStrokeWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="BounceLoader">
+        <attr name="bounce_ballRadius" format="dimension" />
+        <attr name="bounce_ballColor" format="color" />
+        <attr name="bounce_shadowColor" format="color" />
+
+        <attr name="bounce_showShadow" format="boolean" />
+        <attr name="bounce_animDuration" format="integer" />
+    </declare-styleable>
+
+</resources>
